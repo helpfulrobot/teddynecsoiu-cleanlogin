@@ -1,0 +1,189 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: whitesmoke;
+
+	display: -ms-flexbox;
+	display: flex;
+
+	-ms-flex-pack: center;
+	justify-content: center;
+
+	-ms-flex-align: center;
+	align-items: center;
+
+	height: 100%;
+}
+
+.login {
+	display: inline-block;
+	text-rendering: optimizeLegibility;
+}
+
+.login__header {
+	text-align: center;
+}
+
+.login__logo {
+	display: inline-block;
+}
+
+.login__logo img {
+	display: block;
+}
+
+.login__title {
+	margin: 0;
+	text-shadow: 0 1px 0 white;
+	color: #66727e;
+}
+
+.login__descr {
+	margin: 0;
+	color: #bdc4cd;
+}
+
+.login__form {
+	border-radius: 4px;
+	padding: 1.2rem 1rem;	
+	width: 320px;
+	box-sizing: border-box;
+}
+
+/********************************************************/
+/*Styles that are depended of the generated markup by ss*/
+/********************************************************/
+
+.login__form fieldset {
+	margin: 0;
+	background: white;
+	border: 1px solid rgb(231, 230, 230);
+	padding: 1.2rem 1.1em;
+    border-radius: 2px;
+}
+
+.login__form fieldset .text {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.message.bad {
+	background: pink none repeat scroll 0% 0%;
+	padding: 0.5rem 0.8rem;
+	border-radius: 2px;
+	line-height: 1.4;
+	color: rgb(179, 98, 112);
+	margin-top: 0;
+}
+
+fieldset .left {
+    display: block;
+    margin-bottom: .3rem;
+}
+
+fieldset label {
+    color: gray;
+}
+
+.field.text {
+    margin-bottom: 1rem;
+}
+
+.field input {
+    background: whitesmoke;
+    border: 1px solid gainsboro;
+    padding: .4rem .5rem;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px gainsboro inset;
+    outline: none;
+}
+
+.field input:focus {
+	border-color: rgb(62, 146, 224);
+}
+
+.Actions {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.Actions input{
+	width: 100%;
+	padding: .5rem;
+    border: 0;
+    background: linear-gradient(to bottom, rgba(115,187,255,1) 0%, rgb(62, 146, 224) 5%, rgb(32, 123, 226) 92%, rgba(4,98,199,1) 98%);
+    border-radius: 2px;
+    color: white;
+    outline: none;
+    font-weight: bold;
+}
+
+.Actions input:hover {
+	background: linear-gradient(to bottom, rgb(130, 192, 251) 0%, rgb(87, 165, 237) 5%, rgb(72, 149, 236) 92%, rgb(63, 135, 212) 98%);
+}
+
+.Actions input:focus {
+	background: rgb(22, 109, 189);
+	box-shadow: 0 0 3px rgb(7, 43, 77) inset;
+}
+
+.Actions p {
+	margin-top: .5em;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;   
+}
+
+.Actions a {
+	color: rgb(62, 146, 224);
+}
+
+.field.checkbox {
+    margin: 1rem 0 0 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;  
+}
+
+.checkbox input, .checkbox label {
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.checkbox input {
+	margin-right: .3em;
+}
+
+/********************************************************/
+/******************Hidden credit*************************/
+/********************************************************/
+
+.hidden-credit {
+	opacity: 0;
+	font-size: 0.8rem;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 1rem 1.5rem;
+	color: rgb(188, 196, 204);
+	transition: 400ms linear opacity;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.hidden-credit:hover {
+	opacity: 1;
+	cursor: default;
+}
