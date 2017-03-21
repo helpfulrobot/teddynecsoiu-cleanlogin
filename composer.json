@@ -1,0 +1,17 @@
+{
+    "name": "teddynecsoui/cleanlogin",
+    "description": "A simple login page theme",
+    "type": "silverstripe-module",
+    "homepage": "https://github.com/teddynecsoiu/cleanlogin",
+    "keyworld": ["silverstripe", "gridfield"],
+    "require": {
+        "silverstripe/framework": "3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Teddy Necsoiu",
+            "email": "breakoutnotes@gmail.com"
+        }
+    ]
+}
